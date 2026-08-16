@@ -15,4 +15,6 @@ Extension tra giảng viên theo mã lớp trên Cổng thông tin sinh viên HU
 5. Chọn **Load unpacked** rồi chọn thư mục `TraCuuGiangVienHUST-main` vừa giải nén.
 6. Đăng nhập [Cổng thông tin sinh viên HUST](https://qldt.hust.edu.vn/students/) và sử dụng hộp **Tra giảng viên HUST** ở góc dưới bên phải.
 
+> **Lưu ý:** Nếu không tìm thấy, hãy gõ mã học phần hoặc mã lớp vào thanh tìm kiếm của trang đăng ký lớp, sau đó tra cứu lại.
+
 Tác giả: **kongwoang**
