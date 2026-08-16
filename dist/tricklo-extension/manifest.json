@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Tra giảng viên HUST — kongwoang",
+  "short_name": "HUST Teacher",
+  "description": "Tra giảng viên từ mã lớp hoặc Teacher ID trên Cổng thông tin sinh viên HUST.",
+  "version": "2026.8.16",
+  "author": "kongwoang",
+  "host_permissions": [
+    "https://e.hust.edu.vn/student-crs-services/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://qldt.hust.edu.vn/students/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
